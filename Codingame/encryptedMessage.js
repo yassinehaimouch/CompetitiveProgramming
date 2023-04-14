@@ -3,8 +3,8 @@ const LK = parseInt(readLine());
 const Message = readLine().split(' ');
 const keyword = readLine();
 
-// const alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-const alphabet = /^[a-zA-Z]+$/;
+const alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+
 let str = [keyword];
 let arr = [];
 let res = [];
